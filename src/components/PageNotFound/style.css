@@ -1,0 +1,14 @@
+.page-not-found h1 {
+  margin: 40vh auto 0;
+  width: max-content;
+  font-family: 'Movement';
+  font-weight: unset;
+  text-align: center;
+  cursor: pointer;
+  font-variation-settings: "wght" 100, "SPAC" 120;
+  transition: .3s font-variation-settings ease;
+}
+
+.page-not-found h1:hover {
+  font-variation-settings: "wght" 900, "SPAC" 100;
+}
