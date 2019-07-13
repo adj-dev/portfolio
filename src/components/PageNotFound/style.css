@@ -6,7 +6,7 @@
   text-align: center;
   cursor: pointer;
   font-variation-settings: "wght" 100, "SPAC" 120;
-  transition: font-variation-settings .3s ease;
+  transition: .3s font-variation-settings ease;
 }
 
 .page-not-found h1:hover {

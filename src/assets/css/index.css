@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700&display=swap');
+
 @font-face {
   font-family: 'Movement';
   src: url('../fonts/MovementV.ttf');
@@ -11,15 +13,38 @@
 
 body {
   margin: 0;
+  font-family: 'Josefin Sans', 'sans-serif';
+  color: #455261;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 h1 {
-  --max-size: 50;
-  --min-size: 25;
+  --max-size: 62;
+  --min-size: 36;
+  font-size: var(--responsive);
+}
+
+h2 {
+  --max-size: 32;
+  --min-size: 26;
   font-size: var(--responsive);
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/*---------------Structural------------------*/
+
+.row {
+  display: flex;
 }
