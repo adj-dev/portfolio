@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import SplashPage from './components/SplashPage'
 
 import './assets/css/index.css'
 
-export default class app extends Component {
-  render() {
-    return (
-      <div className="black-bg">
-        <h1>coming soon...</h1>
-      </div>
-    )
-  }
-}
+const app = () => (
+  <Router>
+    <Switch>
+      <Route exact path='/' component={SplashPage} />
+    </Switch>
+  </Router>
+)
+
+
+export default app
