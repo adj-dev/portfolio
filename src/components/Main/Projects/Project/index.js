@@ -4,7 +4,7 @@ import { DiHeroku } from 'react-icons/di'
 
 import './style.css'
 
-const Project = ({ title, brief, image, repoLink, deployment }) => {
+const Project = ({ title, brief, synopsis, image, repoLink, deployment }) => {
   return (
     <div className='container'>
       <div className='project-title'>
@@ -12,6 +12,9 @@ const Project = ({ title, brief, image, repoLink, deployment }) => {
       </div>
       <div className='project-brief'>
         <p>{brief}</p>
+      </div>
+      <div className="synopsis">
+        <p>{synopsis}</p>
       </div>
       <div className='row project'>
         <div className='project-img'>

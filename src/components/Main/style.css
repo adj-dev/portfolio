@@ -1,0 +1,18 @@
+.scroll-btn {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 2rem;
+  --max-size: 32;
+  --min-size: 26;
+  font-size: var(--responsive);
+  font-family: 'Movement', sans-serif;
+  font-variation-settings: 'wght' 300, 'SPAC' 110;
+  transition: .3s font-variation-settings ease;
+  cursor: default;
+}
+
+.scroll-btn:hover {
+  font-variation-settings: 'wght' 800, 'SPAC' 100;
+}

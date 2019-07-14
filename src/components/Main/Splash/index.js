@@ -9,7 +9,7 @@ const Splash = () => {
     window.scrollTo({
       top: to,
       behavior: "smooth"
-    });
+    })
   }
 
   return (
@@ -21,7 +21,7 @@ const Splash = () => {
       <div className="splash-brief">
         <h2>a web developer's portfolio</h2>
       </div>
-      <div className="scroll-btn" onClick={scrollToProjects}>
+      <div className="scroll-btn projects" onClick={scrollToProjects}>
         projects
         <FaCaretDown />
       </div>
