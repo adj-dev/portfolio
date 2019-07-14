@@ -1,6 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { FaCaretDown } from 'react-icons/fa'
 import './style.css'
 
 const Splash = () => {
@@ -24,7 +23,7 @@ const Splash = () => {
       </div>
       <div className="scroll-btn" onClick={scrollToProjects}>
         projects
-        <FontAwesomeIcon icon={faCaretDown} />
+        <FaCaretDown />
       </div>
     </div>
   )
