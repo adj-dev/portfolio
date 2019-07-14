@@ -1,9 +1,5 @@
 #projects {
-  height: 100vh;
+  min-height: 100vh;
   background: #59bbb2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 8rem;
   color: #fff;
 }
