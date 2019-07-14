@@ -1,10 +1,14 @@
 import React from 'react'
+import Project from './Project'
+import projects from '../../../assets/data'
+
 import './style.css'
 
 const Projects = () => {
+
   return (
     <div id='projects'>
-      <h1>coming soon...</h1>
+      {projects.map(project => <Project {...project} key={project.id} />)}
     </div>
   )
 }

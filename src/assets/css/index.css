@@ -28,7 +28,7 @@ h6 {
 
 h1 {
   --max-size: 62;
-  --min-size: 36;
+  --min-size: 33;
   font-size: var(--responsive);
 }
 
@@ -43,8 +43,23 @@ a {
   color: inherit;
 }
 
+p {
+  --max-size: 26;
+  --min-size: 18;
+  font-size: var(--responsive);
+  line-height: 1.8rem;
+}
+
 /*---------------Structural------------------*/
 
 .row {
   display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  --max-size: 55;
+  --min-size: 26;
+  padding: var(--responsive);
 }
