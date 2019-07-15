@@ -34,9 +34,3 @@
     height: 700px;
   }
 }
-
-@media screen and (max-width: 420px) {
-  .scroll-btn {
-    bottom: 12rem;
-  }
-}

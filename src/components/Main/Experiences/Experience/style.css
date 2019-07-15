@@ -5,27 +5,21 @@
 
 .experience-header svg {
   --max-size: 30;
-  --min-size: 22;
+  --min-size: 12;
   font-size: var(--responsive);
 }
 
 .company {
   --max-size: 46;
-  --min-size: 32;
+  --min-size: 22;
   font-size: var(--responsive);
-}
-
-.location {
-  --max-size: 42;
-  --min-size: 28;
-  font-size: var(--responsive);
-}
-
-.company {
   font-weight: 900;
 }
 
 .location {
+  --max-size: 42;
+  --min-size: 18;
+  font-size: var(--responsive);
   padding: 0 2vw;
 }
 
@@ -34,7 +28,7 @@
   font-style: italic;
   padding-left: 2vw;
   --max-size: 38;
-  --min-size: 24;
+  --min-size: 14;
   font-size: var(--responsive);
 }
 

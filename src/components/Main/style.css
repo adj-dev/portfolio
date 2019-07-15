@@ -16,3 +16,9 @@
 .scroll-btn:hover {
   font-variation-settings: 'wght' 800, 'SPAC' 100;
 }
+
+@media screen and (max-width: 420px) {
+  .scroll-btn {
+    bottom: 8rem;
+  }
+}
