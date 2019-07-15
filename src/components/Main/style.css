@@ -18,7 +18,7 @@
 }
 
 @media screen and (max-width: 420px) {
-  .scroll-btn {
+  #splash .scroll-btn {
     bottom: 8rem;
   }
 }
