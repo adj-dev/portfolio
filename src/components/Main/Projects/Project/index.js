@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaGithub, FaGithubAlt } from 'react-icons/fa'
 import { DiHeroku } from 'react-icons/di'
-
 import './style.css'
 
 const Project = ({ title, brief, synopsis, image, repoLink, deployment }) => {

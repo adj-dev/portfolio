@@ -1,0 +1,54 @@
+.experience-header {
+  display: flex;
+  align-items: center;
+}
+
+.experience-header svg {
+  --max-size: 30;
+  --min-size: 22;
+  font-size: var(--responsive);
+}
+
+.company {
+  --max-size: 46;
+  --min-size: 32;
+  font-size: var(--responsive);
+}
+
+.location {
+  --max-size: 42;
+  --min-size: 28;
+  font-size: var(--responsive);
+}
+
+.company {
+  font-weight: 900;
+}
+
+.location {
+  padding: 0 2vw;
+}
+
+.role {
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 2vw;
+  --max-size: 38;
+  --min-size: 24;
+  font-size: var(--responsive);
+}
+
+@media screen and (max-width: 960px) {
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .location {
+    padding: 0;
+  }
+
+  .role {
+    padding: 0;
+  }
+}

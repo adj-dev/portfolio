@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCaretDown } from 'react-icons/fa'
 import Project from './Project'
-import projects from '../../../assets/data'
+import { projects } from '../../../assets/data'
 
 import './style.css'
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Splash from './Splash'
 import Projects from './Projects'
-import Experience from './Experience'
+import Experiences from './Experiences'
 import './style.css'
 
 const Main = () => {
@@ -22,7 +22,7 @@ const Main = () => {
     <>
       <Splash />
       <Projects scrollToExperience={scrollToExperience} />
-      {visible ? <Experience /> : null}
+      {visible ? <Experiences /> : null}
     </>
   )
 }
