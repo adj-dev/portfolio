@@ -5,10 +5,13 @@
   min-height: 100vh;
   background: #59bbb2;
   color: #fff;
+  padding-top: 8rem;
   padding-bottom: 15rem;
   position: relative;
 }
 
-.scroll-btn.experience {
-  color: #455261;
+@media screen and (max-width: 420px) {
+  #projects {
+    padding-top: 4rem;
+  }
 }
