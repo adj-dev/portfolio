@@ -2,15 +2,7 @@ import React from 'react'
 import { FaCaretDown } from 'react-icons/fa'
 import './style.css'
 
-const Splash = () => {
-
-  const scrollToProjects = () => {
-    let to = document.getElementById("projects").offsetTop;
-    window.scrollTo({
-      top: to,
-      behavior: "smooth"
-    })
-  }
+const Splash = ({ scrollToTarget }) => {
 
   return (
     <div id='splash'>
@@ -21,8 +13,8 @@ const Splash = () => {
       <div className="splash-brief">
         <h2>a web developer's portfolio</h2>
       </div>
-      <div className="scroll-btn projects" onClick={scrollToProjects}>
-        projects
+      <div className="scroll-btn splash" id='bio-btn' onClick={() => scrollToTarget('bio')}>
+        bio
         <FaCaretDown />
       </div>
     </div>

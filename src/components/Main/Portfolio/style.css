@@ -1,14 +1,17 @@
-#projects {
+#portfolio {
   display: flex;
   flex-direction: column;
-  align-items: center;
   min-height: 100vh;
   background: #59bbb2;
   color: #fff;
+  padding-top: 8rem;
   padding-bottom: 15rem;
   position: relative;
+  align-items: center;
 }
 
-.scroll-btn.experience {
-  color: #455261;
+@media screen and (max-width: 420px) {
+  #portfolio {
+    padding-top: 4rem;
+  }
 }

@@ -1,0 +1,16 @@
+#bio {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#bio .container {
+  padding-top: 14vw;
+}
+
+@media screen and (max-width: 420px) {
+  #bio .container {
+    padding-top: 6rem;
+  }
+}

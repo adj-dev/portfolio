@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
   {
     id: 1,
     title: 'Prota',
@@ -46,4 +46,29 @@ const projects = [
   },
 ]
 
-export default projects
+export const experiences = [
+  {
+    id: 1,
+    company: 'Apex Performance',
+    location: 'California',
+    role: 'consultant',
+    duration: 'November 2017 - February 2019',
+    content: 'Provided logistics solutions for event planning for improved efficiency of non-standardized processes. Represented the interests of the client through active engagement with consumers, ensuring professional interaction consistent with the client’s brand.'
+  },
+  {
+    id: 2,
+    company: 'Norby Land Corp',
+    location: 'Minnesota',
+    role: 'foreman',
+    duration: 'August 2016 - April 2019',
+    content: 'Functioned as a team leader who guided and instructed associates. Satisfied company obligations by producing task-driven actions and organized workflow.'
+  },
+  {
+    id: 3,
+    company: 'Grove City College',
+    location: 'Pennsylvania',
+    role: 'researcher',
+    duration: 'May 2013 - August 2013',
+    content: 'Contributed insight into the research topic through the interpretation of technical data. Delivered presentations to academic faculty - showcasing research progress and proposing theoretical implications of the results.'
+  }
+]

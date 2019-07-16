@@ -1,0 +1,79 @@
+.experience-header {
+  display: flex;
+  align-items: center;
+}
+
+.experience-header svg {
+  --max-size: 30;
+  --min-size: 12;
+  font-size: var(--responsive);
+}
+
+.company {
+  --max-size: 46;
+  --min-size: 22;
+  font-size: var(--responsive);
+  font-weight: 900;
+}
+
+.location {
+  --max-size: 42;
+  --min-size: 18;
+  font-size: var(--responsive);
+  padding: 0 2vw;
+  color: #536273;
+}
+
+.role {
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 2vw;
+  --max-size: 38;
+  --min-size: 14;
+  font-size: var(--responsive);
+}
+
+.duration {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+.experience-content {
+  padding: 2vw 0;
+  --max-size: 24;
+  --min-size: 18;
+  font-size: var(--responsive);
+  font-weight: 300;
+  --max-height: 38;
+  --min-height: 26;
+  line-height: var(--responsive-height);
+}
+
+@media screen and (max-width: 420px) {
+  .company {
+    --min-size: 28;
+  }
+
+  .location {
+    --min-size: 24;
+  }
+
+  .role {
+    --min-size: 22;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .location {
+    padding: 0;
+  }
+
+  .role {
+    padding: 0;
+  }
+}

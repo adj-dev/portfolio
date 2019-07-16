@@ -25,18 +25,12 @@
   color: #455261;
 }
 
-.scroll-btn.projects {
+.scroll-btn.splash {
   color: #59bbb2;
 }
 
 @media screen and (max-height: 700px) {
   #splash {
     height: 700px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .scroll-btn {
-    bottom: 12rem;
   }
 }
