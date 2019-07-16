@@ -1,0 +1,34 @@
+#contact {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#contact .message {
+  padding-top: 6vw;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vw;
+}
+
+.contact-btn svg {
+  --max-size: 240;
+  --min-size: 150;
+  font-size: var(--responsive);
+  transition: .2s transform ease;
+}
+
+.contact-btn svg:hover {
+  transform: scale(1.2)
+}
+
+@media screen and (max-width: 420px) {
+  .contact-btn {
+    padding-top: 8rem;
+  }
+}

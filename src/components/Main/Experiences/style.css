@@ -5,3 +5,14 @@
   font-family: 'Merriweather', serif;
   background: #f3efe1;
 }
+
+#experience .message {
+  padding: 18vw 0 8vw;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  --max-size: 28;
+  --min-size: 12;
+  font-size: var(--responsive);
+}

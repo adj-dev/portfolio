@@ -21,6 +21,7 @@
   --min-size: 18;
   font-size: var(--responsive);
   padding: 0 2vw;
+  color: #536273;
 }
 
 .role {
@@ -30,6 +31,36 @@
   --max-size: 38;
   --min-size: 14;
   font-size: var(--responsive);
+}
+
+.duration {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+.experience-content {
+  padding: 2vw 0;
+  --max-size: 24;
+  --min-size: 18;
+  font-size: var(--responsive);
+  font-weight: 300;
+  --max-height: 38;
+  --min-height: 26;
+  line-height: var(--responsive-height);
+}
+
+@media screen and (max-width: 420px) {
+  .company {
+    --min-size: 28;
+  }
+
+  .location {
+    --min-size: 24;
+  }
+
+  .role {
+    --min-size: 22;
+  }
 }
 
 @media screen and (max-width: 960px) {

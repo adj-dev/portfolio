@@ -2,20 +2,18 @@ import React from 'react'
 import { FaCaretDown } from 'react-icons/fa'
 import Project from './Project'
 import { projects } from '../../../assets/data'
-
 import './style.css'
 
-const Projects = ({ scrollToExperience }) => {
-
+const Portfolio = ({ scrollToTarget }) => {
   return (
-    <div id='projects'>
+    <div id='portfolio'>
       {projects.map(project => <Project {...project} key={project.id} />)}
-      <div className="scroll-btn experience" onClick={() => scrollToExperience()}>
-        experience
+      <div className="scroll-btn portfolio" id='contact-btn' onClick={() => scrollToTarget('contact')}>
+        contact
         <FaCaretDown />
       </div>
     </div>
   )
 }
 
-export default Projects
+export default Portfolio

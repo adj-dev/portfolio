@@ -17,7 +17,9 @@ const Project = ({ title, brief, synopsis, image, repoLink, deployment }) => {
       </div>
       <div className='row project'>
         <div className='project-img'>
-          <img src={image} alt='' />
+          <a href={deployment ? deployment.link : repoLink} target='_blank' rel='noopener noreferrer'>
+            <img src={image} alt='' />
+          </a>
         </div>
         <div className='project-links'>
           <div className="project-links-wrapper">

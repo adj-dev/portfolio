@@ -4,17 +4,28 @@
   flex-direction: column;
   align-items: center;
   bottom: 2rem;
-  --max-size: 32;
+  --max-size: 38;
   --min-size: 26;
   font-size: var(--responsive);
   font-family: 'Movement', sans-serif;
   font-variation-settings: 'wght' 300, 'SPAC' 110;
-  transition: .3s font-variation-settings ease;
+  transition-property: font-variation-settings, visibility;
+  transition-duration: .3s, .2s;
+  transition-timing-function: ease, ease;
   cursor: default;
 }
 
 .scroll-btn:hover {
   font-variation-settings: 'wght' 800, 'SPAC' 100;
+}
+
+p.larger {
+  --max-height: 50;
+  --min-height: 34;
+  line-height: var(--responsive-height);
+  --max-size: 34;
+  --min-size: 22;
+  font-size: var(--responsive);
 }
 
 @media screen and (max-width: 420px) {

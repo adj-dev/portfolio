@@ -61,7 +61,7 @@ export const experiences = [
     location: 'Minnesota',
     role: 'foreman',
     duration: 'August 2016 - April 2019',
-    content: 'Functioned as a team leader who guided and instructed associates. Satisfied company obligations by producing task-driven actions and organized workflow. '
+    content: 'Functioned as a team leader who guided and instructed associates. Satisfied company obligations by producing task-driven actions and organized workflow.'
   },
   {
     id: 3,
