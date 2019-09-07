@@ -13,7 +13,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Escribe',
+    title: 'Enscribe',
     brief: 'Enscribe is a tool for tutors to share lesson notes with their students.',
     synopsis: 'Built using Handlebars on the front-end and MySQL on the back-end. This was a fun project that allowed me to become familiar with using Sequelize to communicate with a MySQL database. My role in this project was in creating models for the database, writing API routes, and designing the UI.',
     image: require('../images/escribe.png'),
