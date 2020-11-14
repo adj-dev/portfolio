@@ -5,7 +5,7 @@ import PageNotFound from './components/PageNotFound'
 
 import './assets/css/index.css'
 
-const app = () => (
+const App = () => (
   <Router>
     <Switch>
       <Route exact path='/' component={Main} />
@@ -15,4 +15,4 @@ const app = () => (
 )
 
 
-export default app
+export default App
