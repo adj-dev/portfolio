@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCaretDown } from 'react-icons/fa'
+import headShot from '../../../assets/images/headshot.png'
 import './style.css'
 
 const Splash = ({ scrollToTarget }) => {
@@ -7,7 +8,7 @@ const Splash = ({ scrollToTarget }) => {
   return (
     <div id='splash'>
       <div className='splash-img'>
-        <img src={require('../../../assets/images/headshot.png')} alt="" />
+        <img src={ headShot } alt="" />
       </div>
       <h1>ANDREW JOHNSON</h1>
       <div className="splash-brief">
